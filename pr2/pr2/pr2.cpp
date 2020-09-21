@@ -276,6 +276,7 @@ int _tmain(int argc, _TCHAR* argv[])
 {
 	SetConsoleCP(1251);// подключение русскоязычного ввода/вывода
 	SetConsoleOutputCP(1251);
+	system("Color F0");
 	init();// функция инициализации
 	char cas;// выбор пользователя
 	do{
